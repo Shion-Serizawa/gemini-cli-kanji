@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>漢字探しゲーム</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="header">
+            <h1>問題: <span id="question-kanji"></span></h1>
+            <div id="timer">タイム: 0.00</div>
+        </div>
+        <div id="game-field"></div>
+    </div>
+
+    <div id="result-screen" class="hidden">
+        <div id="result-box">
+            <h2>クリア！</h2>
+            <p>あなたのタイムは <span id="final-time"></span> 秒でした。</p>
+            <button id="restart-button">もう一度プレイ</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
